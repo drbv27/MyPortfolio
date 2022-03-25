@@ -1,6 +1,6 @@
 const Navbar = () => {
     return ( 
-        <h1>Barra de navegación</h1>
+        <h1>Navbar</h1>
      );
 }
  
