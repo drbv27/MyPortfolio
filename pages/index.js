@@ -1,5 +1,12 @@
+import Layout from "../components/Layout";
+import Navbar from "../components/Navbar";
+
 const Index = () => {
-    return ( <h1>Hola Mundo</h1> );
+    return ( 
+        <Layout>
+            <h1>Principal</h1>
+        </Layout>
+     );
 }
  
 export default Index;
