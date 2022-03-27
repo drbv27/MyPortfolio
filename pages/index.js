@@ -8,7 +8,7 @@ const Index = () => {
                     <div className="card card-body bg-secondary text-primary">
                         <div className="row">
                             <div className="col-md-4">
-                                <img src="/fotodoc2.png" alt="drbv"className="img-fluid rounded"/>
+                                <img src="/fotodoc4.png" alt="drbv"className="img-fluid rounded"/>
                             </div>
                             <div className="col-md-8">
                                 <h1>Diego Bonilla</h1>
@@ -20,6 +20,23 @@ const Index = () => {
                     </div>
                 </div>
             </header>
+            <div className="row mt-3 text-primary">
+                <div className="col-md-4">
+                    <div className="card bg-light">
+                        <div className="card-body">
+                            <h1>Skills</h1>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="col-md-8">
+                <div className="card bg-light">
+                        <div className="card-body">
+                            <h1>Experience</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </Layout>
      );
 }
