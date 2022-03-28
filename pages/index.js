@@ -29,18 +29,8 @@ const Index = () => {
                             <h1>Skills</h1>
                             {
                                 skills.map(({skill,percentage},i)=>(
-                                    <div className="py-3" key={i}>
-                                        <h5>{skill}</h5>
-                                        <div className="progress">
-                                            <div
-                                                className="progress-bar bg-danger"
-                                                role="progressbar"
-                                                style={{width:`${percentage}%`}}
-                                            ></div>
-                                        </div>
-
-                                    </div>
-                                ))
+                                    <Skill skill={skill} percentage={percentage} key={i}/>
+                                 ))
                             }
                         </div>
                     </div>

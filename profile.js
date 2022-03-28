@@ -13,7 +13,7 @@ export const skills = [
     },
     {
         skill: 'Javascript',
-        percentage:80,
+        percentage:85,
     },
     {
         skill: 'React',
