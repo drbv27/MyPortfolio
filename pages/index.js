@@ -1,4 +1,6 @@
 import Layout from "../components/Layout";
+import Skill from "../components/skill";
+import { skills } from "../profile";
 
 const Index = () => {
     return ( 
@@ -25,6 +27,21 @@ const Index = () => {
                     <div className="card bg-light">
                         <div className="card-body">
                             <h1>Skills</h1>
+                            {
+                                skills.map(({skill,percentage},i)=>(
+                                    <div className="py-3" key={i}>
+                                        <h5>{skill}</h5>
+                                        <div className="progress">
+                                            <div
+                                                className="progress-bar bg-danger"
+                                                role="progressbar"
+                                                style={{width:`${percentage}%`}}
+                                            ></div>
+                                        </div>
+
+                                    </div>
+                                ))
+                            }
                         </div>
                     </div>
 
