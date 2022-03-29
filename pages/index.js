@@ -28,8 +28,8 @@ const Index = () => {
                         <div className="card-body">
                             <h1>Skills</h1>
                             {
-                                skills.map(({skill,percentage},i)=>(
-                                    <Skill skill={skill} percentage={percentage} key={i}/>
+                                skills.map(({skill,percentage,icon},i)=>(
+                                    <Skill skill={skill} percentage={percentage} icon={icon} key={i}/>
                                  ))
                             }
                         </div>
