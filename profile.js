@@ -37,3 +37,30 @@ export const skills = [
         icon:faCircleChevronRight
     }
 ]
+
+export const experiences = [
+    {
+        company:"Fondo Soldicom",
+        labour:"Development Team Leader",
+        time:"16/11/2019 - actual",
+        Functions:"Lead a team to develop several app and web sites, using techs like: HTML,CSS,JS,PHP,WORDPRESS,REACT,STYLED COMPONENTS,SASS"
+    },
+    {
+        company:"Fondo Soldicom",
+        labour:"Development Team Leader",
+        time:"16/11/2019 - actual",
+        Functions:"Lead a team to develop several app and web sites, using techs like: HTML,CSS,JS,PHP,WORDPRESS,REACT,STYLED COMPONENTS,SASS"
+    },
+    {
+        company:"Fondo Soldicom",
+        labour:"Development Team Leader",
+        time:"16/11/2019 - actual",
+        Functions:"Lead a team to develop several app and web sites, using techs like: HTML,CSS,JS,PHP,WORDPRESS,REACT,STYLED COMPONENTS,SASS"
+    },
+    {
+        company:"Fondo Soldicom",
+        labour:"Development Team Leader",
+        time:"16/11/2019 - actual",
+        Functions:"Lead a team to develop several app and web sites, using techs like: HTML,CSS,JS,PHP,WORDPRESS,REACT,STYLED COMPONENTS,SASS"
+    }
+]
