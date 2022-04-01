@@ -61,18 +61,17 @@ const Index = () => {
                                 <h6 className="card-title text-secondary">Type: Responsive Web Dev</h6>
                                 <p className="card-text text-secondary">ome quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <h6 className="card-title text-secondary">Used Techs:</h6>
-                                <hr className="text-secondary"/>
                                 <div className="row">
-                                    <div className="col-md-4 text-light">
+                                    <div className="col-md-3 text-light">
                                         html
                                     </div>
-                                    <div className="col-md-4 text-light">
+                                    <div className="col-md-3 text-light">
                                         html
                                     </div>
-                                    <div className="col-md-4 text-light">
+                                    <div className="col-md-3 text-light">
                                         html
                                     </div>
-                                    <div className="col-md-4 text-light">
+                                    <div className="col-md-3 text-light">
                                         html
                                     </div>
                                 </div>
