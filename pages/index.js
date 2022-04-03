@@ -59,7 +59,7 @@ const Index = () => {
                             <div className="card-body">
                                 <h5 className="card-title text-light">404 Not Found Page</h5>
                                 <h6 className="card-title text-secondary">Type: Responsive Web Dev</h6>
-                                <p className="card-text text-secondary">ome quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p className="card-text text-secondary">ome quick example text to build on the card title and make up the bulk.</p>
                                 <h6 className="card-title text-secondary">Used Techs:</h6>
                                 <div className="row">
                                     <div className="col-md-3 text-light">
