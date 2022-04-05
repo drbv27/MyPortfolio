@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faHtml5, faCss3, faSass, faJs, faReact,faCss3Alt } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import Techs from './Tech';
 const Project = ({
     pageImg,
     pageTitle,
@@ -20,22 +21,13 @@ const Project = ({
                 <p className="card-text text-secondary">{pageDesc}</p>
                 <h6 className="card-title text-secondary">Used Techs:</h6>
                 <hr className="text-secondary"/>
-                <div className="row">
-                    <div className="col-md-4 text-light">
-                        <FontAwesomeIcon icon={faHtml5} />
-                    </div>
-                <div className="col-md-4 text-light">
-                    html
-                </div>
-                <div className="col-md-4 text-light">
-                    html
-                </div>
-                <div className="col-md-4 text-light">
-                    html
-                </div>
+                <div className="row mb-3">
+                    <Techs pageIcons={pageIcons}/>
+
+               
              </div>
-            <a href="#" className="btn btn-primary">Demo</a>
-            <a href="#" className="btn btn-primary">Code</a>
+            <a href={pageUrl} className="btn btn-primary">Demo</a>
+            <a href={codeUrl} className="btn btn-primary">Code <FontAwesomeIcon icon={faGithub}/></a>
             </div>
         </div> 
     </div>
