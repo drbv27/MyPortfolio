@@ -29,13 +29,13 @@ export const projects = [
         codeUrl:"https://github.com/drbv27/InteriorConsultantCh"
     },
     {
-        pageImg: 'page.jpg',
-        pageTitle:"407 Not Found Page",
-        pageType:"Resposnive Web Dev",
-        pageDesc:"some to write",
+        pageImg: 'recipe.png',
+        pageTitle:"Recipe Page",
+        pageType:"Responsive Web Dev",
+        pageDesc:"A Little challenge from: devchallenges.io",
         pageIcons:[faHtml5,faCss3Alt,faSass],
-        pageUrl:"",
-        codeUrl:""
+        pageUrl:"https://jolly-kilby-b27ff7.netlify.app/",
+        codeUrl:"https://github.com/drbv27/RecipePageChallenge"
     },
     {
         pageImg: 'page.jpg',
