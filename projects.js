@@ -1,4 +1,4 @@
-import {  faHtml5, faCss3, faSass, faJs, faReact,faCss3Alt } from '@fortawesome/free-brands-svg-icons'
+import {  faHtml5, faCss3, faSass, faJs, faReact,faCss3Alt, faBootstrap } from '@fortawesome/free-brands-svg-icons'
 import { faCircleChevronRight, faPaintbrush } from '@fortawesome/free-solid-svg-icons'
 export const projects = [
     {
@@ -38,12 +38,21 @@ export const projects = [
         codeUrl:"https://github.com/drbv27/RecipePageChallenge"
     },
     {
-        pageImg: 'page.jpg',
-        pageTitle:"408 Not Found Page",
-        pageType:"React FrontEnd",
-        pageDesc:"some to write",
-        pageIcons:[faHtml5,faCss3Alt,faReact],
-        pageUrl:"",
-        codeUrl:""
+        pageImg: 'gallery.png',
+        pageTitle:"My Gallery Page",
+        pageType:"Responsive Web Dev",
+        pageDesc:"A Little challenge from: devchallenges.io",
+        pageIcons:[faHtml5,faCss3Alt,faBootstrap],
+        pageUrl:"https://epic-swirles-3df505.netlify.app/",
+        codeUrl:"https://github.com/drbv27/MyGalleryChallenge"
+    },
+    {
+        pageImg: 'checkout.png',
+        pageTitle:"Checkout Page",
+        pageType:"Responsive Web Dev",
+        pageDesc:"A Little challenge from: devchallenges.io",
+        pageIcons:[faHtml5,faCss3Alt,faBootstrap],
+        pageUrl:"https://zen-hamilton-ab5318.netlify.app/",
+        codeUrl:"https://github.com/drbv27/CheckoutPageChallenge"
     },
 ]
