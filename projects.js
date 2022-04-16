@@ -55,4 +55,13 @@ export const projects = [
         pageUrl:"https://zen-hamilton-ab5318.netlify.app/",
         codeUrl:"https://github.com/drbv27/CheckoutPageChallenge"
     },
+    {
+        pageImg: 'edieHome.png',
+        pageTitle:"Edie Home Page",
+        pageType:"Responsive Web Dev",
+        pageDesc:"A Little challenge from: devchallenges.io",
+        pageIcons:[faHtml5,faCss3Alt,faSass],
+        pageUrl:"https://stately-tapioca-364cf1.netlify.app/",
+        codeUrl:"https://github.com/drbv27/EddieHomePage-Challenge"
+    },
 ]
