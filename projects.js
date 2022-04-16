@@ -22,7 +22,7 @@ export const projects = [
     {
         pageImg: 'InteriorConsultant.png',
         pageTitle:"Interior Consultant Page",
-        pageType:"Resposnive Web Dev",
+        pageType:"Responsive Web Dev",
         pageDesc:"A Little challenge from: devchallenges.io",
         pageIcons:[faHtml5,faCss3Alt,faSass],
         pageUrl:"https://boring-chandrasekhar-380ea0.netlify.app/",

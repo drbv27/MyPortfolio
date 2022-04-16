@@ -54,6 +54,11 @@ const Index = () => {
             </div>
             <div className="container col-md-12 text-center bg-light mt-3 text-primary pt-2 mb-3 pb-3">
                 <h2 className="mb-2">My Projects</h2>
+                <button type="button" class="btn btn-info mx-1">Resp. Web Dev</button>
+                <button type="button" class="btn btn-success mx-1">Front End</button>
+                <button type="button" class="btn btn-warning mx-1">Full Stack</button>
+                <button type="button" class="btn btn-danger mx-1">Clear X</button>
+                <hr/>
                 <div className="row">
                     {
                         projects.map(({
