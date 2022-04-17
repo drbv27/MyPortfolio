@@ -58,10 +58,13 @@ const Index = () => {
             </div>
             <div className="container col-md-12 text-center bg-light mt-3 text-primary pt-2 mb-3 pb-3">
                 <h2 className="mb-2">My Projects</h2>
-                <button type="button" class="btn btn-info mx-1" onClick={()=>setProyectos(projectsrwd)}>Resp. Web Dev</button>
-                <button type="button" class="btn btn-success mx-1" onClick={()=>setProyectos(projectsfe)}>Front End</button>
-                <button type="button" class="btn btn-warning mx-1">Full Stack</button>
-                <button type="button" class="btn btn-danger mx-1" onClick={()=>setProyectos(initial)}>Clear X</button>
+                <button type="button" className="btn btn-danger mx-1" onClick={()=>setProyectos(projectsrwd)}>Resp. Web Dev</button>
+                <button type="button" className="btn btn-danger mx-1" onClick={()=>setProyectos(projectsfe)}>Front End</button>
+                <button type="button" className="btn btn-danger mx-1">Full Stack</button>
+                
+                <button type="button" className="btn btn-outline-danger mx-1" onClick={()=>setProyectos(initial)}><b>Clear X</b></button>
+                
+                
                 <hr/>
                 <div className="row">
                     {
@@ -87,6 +90,15 @@ const Index = () => {
                         ))
                     }
                 </div>
+            </div>
+            <div className="container col-md-12 bg-light mt-3 text-primary pt-2 mb-3 pb-3">
+                <h2>Contact me:</h2>
+                <h3>Diego Bonilla</h3>
+                <div className="row">
+                    <p>Phone: +57 3192181322</p>
+                    <p>Email: drbv27@gmail.com</p>
+                </div>
+
             </div>
         </Layout>
      );
