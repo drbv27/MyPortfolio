@@ -3,9 +3,13 @@ import Layout from "../components/Layout";
 import Project from "../components/Project";
 import Skill from "../components/skill";
 import { skills,experiences } from "../profile";
-import { projects } from "../projects";
+import { projectsrwd } from "../projectsrwd";
+import { projectsfe } from "../projectsfe";
+import React, { useState } from 'react';
 
 const Index = () => {
+    const initial = [];
+    const [proyectos,setProyectos] = useState(initial)
     return ( 
         <Layout>
             <header className="row">
@@ -54,14 +58,14 @@ const Index = () => {
             </div>
             <div className="container col-md-12 text-center bg-light mt-3 text-primary pt-2 mb-3 pb-3">
                 <h2 className="mb-2">My Projects</h2>
-                <button type="button" class="btn btn-info mx-1">Resp. Web Dev</button>
-                <button type="button" class="btn btn-success mx-1">Front End</button>
+                <button type="button" class="btn btn-info mx-1" onClick={()=>setProyectos(projectsrwd)}>Resp. Web Dev</button>
+                <button type="button" class="btn btn-success mx-1" onClick={()=>setProyectos(projectsfe)}>Front End</button>
                 <button type="button" class="btn btn-warning mx-1">Full Stack</button>
-                <button type="button" class="btn btn-danger mx-1">Clear X</button>
+                <button type="button" class="btn btn-danger mx-1" onClick={()=>setProyectos(initial)}>Clear X</button>
                 <hr/>
                 <div className="row">
                     {
-                        projects.map(({
+                        proyectos.map(({
                             pageImg,
                             pageTitle,
                             pageType,
