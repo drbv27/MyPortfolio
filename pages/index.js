@@ -62,8 +62,10 @@ const Index = () => {
                 <button type="button" className="btn btn-danger mx-1" onClick={()=>setProyectos(projectsfe)}>Front End</button>
                 <button type="button" className="btn btn-danger mx-1">Full Stack</button>
                 
+                {proyectos.length>0 && 
                 <button type="button" className="btn btn-outline-danger mx-1" onClick={()=>setProyectos(initial)}><b>Clear X</b></button>
                 
+                }
                 
                 <hr/>
                 <div className="row">
